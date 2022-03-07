@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria Arles</title>
+    </head>
+    <body>
+        <!--Cabecera-->
+        <header>
+            <!--Logo-->
+            <div id="logo">
+                <a href="index-cliente.html"><img src="../img/Arles.png"></a>
+            </div>
+            <div style="clear: both"></div>
+    
+            <!--Mensaje de bienvenida-->
+            <div>
+                <h1>Bienvenido a Pasteleria Arles</h1>
+                <h2>Deleitate con los mejores sabores</h2>
+            </div>
+            <div style="clear: both"></div>
+    
+            <!--Ingresar a cuenta y carrito de compras-->
+            <div>
+                <div><a href="#"><span class="material-icons-outlined">account_circle</span>Mi cuenta</a></div>
+                <div><a href="#"><span class="material-icons-outlined">shopping_cart</span>Carrito de
+                        compras</a></div>
+            </div>
+        </header>
+
+        <!--Formulario-->
+        <h1>Personaliza los sabores tu pastel</h1>
+        <div>
+            <form action="url" method="post">
+                <div>
+                    <label for="nombre">Introduce tu nombre completo: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required/> <br/>
+                    <label for="telefono">Introduce tu número de teléfono: </label>
+                    <input type="tel" id="telefono" name="telefono" min="10" max="10" placeholder="Teléfono" required/> <br/>
+                    <label for="correo-electronico">Introduce tu correo electrónico: </label>
+                    <input type="email" id="correo-electronico" name="correo-electronico" placeholder="Correo electrónico" required/> <br/>
+                </div>
+                <div>
+                    <label>Selecciona el sabor para la base de tu pastel: </label>
+                    <select>
+                        <option>Chocolate</option>
+                        <option>Fresa</option>
+                        <option>Vainilla</option>
+                        <option>Cajeta</option>
+                        <option>Moka</option>
+                        <option>Chocolate (vegano)</option>
+                        <option>Plátano(vegano)</option>
+                        <option>Coco(vegano)</option>
+                        <option>Naranja(vegano)</option>
+                        <option>Zanahoria(vegano)</option>
+                    </select> <br/>
+                </div>
+                <div>
+                    <label>Selecciona el sabor del primer piso: </label>
+                    <select>
+                        <option>Chocolate</option>
+                        <option>Fresa</option>
+                        <option>Vainilla</option>
+                        <option>Tres leches</option>
+                        <option>Cajeta</option>
+                        <option>Moka</option>
+                        <option>Chocolate (vegano)</option>
+                        <option>Plátano(vegano)</option>
+                        <option>Coco(vegano)</option>
+                        <option>Naranja(vegano)</option>
+                        <option>Zanahoria(vegano)</option>
+                    </select> <br/>
+                </div>
+                <div>
+                    <label>Selecciona el sabor de la parte media: </label>
+                    <select>
+                        <option>Chocolate</option>
+                        <option>Fresa</option>
+                        <option>Vainilla</option>
+                        <option>Tres leches</option>
+                        <option>Cajeta</option>
+                        <option>Moka</option>
+                        <option>Chocolate (vegano)</option>
+                        <option>Plátano(vegano)</option>
+                        <option>Coco(vegano)</option>
+                        <option>Naranja(vegano)</option>
+                        <option>Zanahoria(vegano)</option>
+                    </select> <br/>
+                </div>
+                <div>
+                    <label>Selecciona el sabor de la parte de arriba: </label>
+                    <select>
+                        <option>Chocolate</option>
+                        <option>Fresa</option>
+                        <option>Vainilla</option>
+                        <option>Tres leches</option>
+                        <option>Cajeta</option>
+                        <option>Moka</option>
+                        <option>Chocolate (vegano)</option>
+                        <option>Plátano(vegano)</option>
+                        <option>Coco(vegano)</option>
+                        <option>Naranja(vegano)</option>
+                        <option>Zanahoria(vegano)</option>
+                    </select> <br/>
+                </div>
+                <div>
+                    <label>Selecciona el sabor de la cubierta del pastel: </label>
+                    <select>
+                        <option>Chocolate</option>
+                        <option>Chocolate amargo</option>
+                        <option>Chocolate blanco</option>
+                        <option>Crema batida</option>
+                        <option>Queso crema</option>
+                        <option>Fondant</option>
+                    </select><br/>
+                </div>
+                <div>
+                    <label>Selecciona las frutas para la cubierta del pastel: </label>
+                    <input type="checkbox" id="fresas" name="fresas" value="fresas"/>
+                    <label for="fresas">Fresas</label><br/>
+                    <input type="checkbox" id="duraznos" name="duraznos" value="duraznos"/>
+                    <label for="duraznos">Duraznos</label><br/>
+                    <input type="checkbox" id="futos-rojos" name="frutos-rojos" value="frutos-rojos"/>
+                    <label for="frutos-rojos">Frutos rojos</label><br/>
+                    <input type="checkbox" id="mango" name="mango" value="mango"/>
+                    <label for="mango">Mango</label><br/>
+                    <input type="checkbox" id="zarzamoras" name="zarzamoras" value="zarzamoras"/>
+                    <label for="zarzamoras">Zarzamoras</label><br/>
+                </div>
+                <div>
+                    <p>Selecciona los adornos: </p>
+                    <input type="checkbox" id="vela-bengala" name="vela-bengala" value="bengala" />
+                    <label for="vela-bengala">Vela bengala</label><br/>
+                    <input type="checkbox" id="vela-num-1" name="vela-num-1" value="num-1" />
+                    <label for="vela-num-1">Vela con forma de número 1</label><br/>
+                    <input type="checkbox" id="vela-num-2" name="vela-num-2" value="num-2" />
+                    <label for="vela-num-2">Vela con forma de número 2</label><br/>
+                    <input type="checkbox" id="vela-num-3" name="vela-num-3" value="num-3" />
+                    <label for="vela-num-3">Vela con forma de número 3</label><br/>
+                    <input type="checkbox" id="vela-num-4" name="vela-num-4" value="num-4" />
+                    <label for="vela-num-4">Vela con forma de número 4</label><br/>
+                    <input type="checkbox" id="vela-num-5" name="vela-num-5" value="num-5" />
+                    <label for="vela-num-5">Vela con forma de número 5</label><br/>
+                    <input type="checkbox" id="vela-num-6" name="vela-num-6" value="num-6" />
+                    <label for="vela-num-6">Vela con forma de número 6</label><br/>
+                    <input type="checkbox" id="vela-num-7" name="vela-num-7" value="num-7" />
+                    <label for="vela-num-7">Vela con forma de número 7</label><br/>
+                    <input type="checkbox" id="vela-num-8" name="vela-num-8" value="num-8" />
+                    <label for="vela-num-8">Vela con forma de número 8</label><br/>
+                    <input type="checkbox" id="vela-num-9" name="vela-num-9" value="num-9" />
+                    <label for="vela-num-9">Vela con forma de número 9</label><br/>
+                    <input type="checkbox" id="vela-num-0" name="vela-num-0" value="num-0" />
+                    <label for="vela-num-0">Vela con forma de número 0</label><br/>
+                    <input type="checkbox" id="letrero-1" name="letrero-1" value="letrero-1" />
+                    <label for="letrero-1">Letrero "Feliz cumpleaños"</label><br/>
+                    <input type="checkbox" id="letrero-2" name="letrero-2" value="letrero-2" />
+                    <label for="letrero-2">Letrero "Felicidades"</label><br/>
+                    <input type="checkbox" id="letrero-3" name="letrero-3" value="letrero-3" />
+                    <label for="letrero-3">Letrero "Te amo"</label><br/>
+                </div>
+                <div>
+                    <p>Selecciona la fecha de entrega</p>
+                    <input type="date" id="fecha1" name="fecha1"> <br>
+                </div>
+                <div>
+                    <label>Descripción general del pastel: </label>
+                    <textarea>Descripción general del pastel</textarea>
+                </div>
+                <button name="enviar" type="enviar">Enviar</button>
+            </form>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div>
+                <img src="../img/Arles.png" />
+            </div>
+            <div>
+                <h4>Estamos ubicados en:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequuntur tenetur nobis, aliquam quidem
+                    sequi odit, reprehenderit quas suscipit repudiandae est similique, cumque commodi quam nulla veniam. Ad,
+                    laudantium voluptatem?</p>
+                <h4>Teléfono:</h4>
+                <p>000-000-0000</p>
+                <h4>Horario de atención:</h4>
+                <p>Lunes a Domingo de 9:00am a 7:00pm</p>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7548.364392508812!2d-99.23166439209912!3d18.92332793379974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdde52aad32f4f%3A0x1c11e8f948948e13!2sPlaza%20de%20Armas!5e0!3m2!1ses-419!2smx!4v1646075904103!5m2!1ses-419!2smx" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div>
+                <p>Copyright &copy; 2022 | Todos los derechos reservados | Karewit Romero</p>
+            </div>
+        </footer>
+    </body>
+</html>
